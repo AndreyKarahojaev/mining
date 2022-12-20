@@ -1,0 +1,225 @@
+@import url("./variables.css");
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  width: 100%;
+  margin: 0 auto;
+  background: var(--primary-wgrey);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 320px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+.disabled {
+  display:none;
+}
+
+.active {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justufy-center {
+  justify-content: center;
+}
+.justufy-around {
+  justify-content: space-around;
+}
+.justufy-between {
+  justify-content: space-between;
+}
+.items-align {
+  align-items: center;
+}
+
+.m10 {
+  margin:10px 10px 0px 10px;
+}
+
+.width8 {
+  max-width: 80%;
+}
+
+.width2 {
+  max-width: 20%;
+}
+
+.width {
+  width: 100%;
+}
+.width-m360 {
+  width: 360px;
+}
+.width-m328 {
+  width: 328px;
+}
+.width-m296 {
+  width: 296px;
+}
+.width-m264 {
+  width: 264px;
+}
+.width-m256 {
+  width: 256px;
+}
+.width-776 {
+  width: 776px;
+}
+.width-688 {
+  width: 688px;
+}
+.width-480 {
+  width: 480px;
+}
+.width-423 {
+  width: 423px;
+}
+.width-416 {
+  width: 416px;
+}
+.width-256 {
+  width: 256px;
+}
+
+/* часто используемые классы */
+.visually-hidden {
+  position: absolute;
+  clip: rect( 0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.text-btn {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  background: #87B645;
+  border-radius: 4px; 
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+
+.btn-disble {
+  display: block;
+  text-align: center;
+  background: #D7D7D7;
+  border-radius: 4px; 
+  color: #ffffff;
+}
+
+.btn:hover {
+  background: #FBAC00;
+  color: #ffffff;
+}
+
+.btn:active {
+  background-color: #2B69DD;
+  color: #E5E5E5;
+}
+.btn:target {
+  background: #2B69DD;
+  color: #E5E5E5;
+}
+
+.btn:disabled {
+  background-color: #D7D7D7;
+  color: #A1A1A3;
+}
+
+.btn:hover p {
+  color: #2B69DD;
+}
+
+/* ссылка */
+
+.text-decoration {
+  text-align: center;
+  color: #333333;
+  text-decoration: none;
+  list-style: none;
+}
+.text-decoration:hover {
+  color: #2B69DD;
+  text-decoration-color: #FBAC00;
+  border-bottom: 1px solid #FBAC00;
+}
+.text-decoration:active {
+  color: #75ACFE;
+}
+.text-decoration:target {
+  color: #75ACFE;
+}
+.text-decoration:disabled {
+  color: #D7D7D7;
+}
+
+.header-link {
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* задать линк эффекты для кнопки */
+
+
+
+
+
+
+

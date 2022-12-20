@@ -1,0 +1,58 @@
+ :root {
+  
+
+  --primary-font-family:  'Raleway', sans-serif;
+  --primary-small:  382px;
+  --primary-medium-min: 400px;
+  --primary-medium-mo: 600px;
+  --primary-medium: 700px;
+  --primary-larg: 910px;
+  --primary-huge: 1200px;
+  --primary-giant: 1920px;
+  --primary-immeasurable: 2560px;
+
+/*main colors*/
+  --primary-white:#ffffff;
+  --primary-wgrey: #F5F5F5;
+  --primary-grey: #A1A1A3;
+  --primary-black:#333333;
+
+/* PRIMARY COLOR/other*/
+  --primary-press:#2B69DD;  
+  --primary-hover:#FBAC00;
+  --primary-inactiv:#87B645;
+/*borders*/
+  --primary-border-gray:#D7D7D7;
+  --primary-border-blue: #A0C4FA;
+/*центрирование контента*/
+  
+/*OTHER COLOR*/
+  --primary-other-green: #098B50;
+  --primary-other-izumrud: #026057;
+  --primary-other-red: #EB5757;
+  --primary-other-blue: #75ACFE;
+  --primary-other-ocean: #1BAAD1;
+  --primary-other-yellow: #F8DB73;
+  --primary-other-greyback: #ECECEC;
+
+
+  --primary-font60: 60px;
+  --primary-font48: 48px;
+  --primary-font36: 36px;
+  --primary-font30: 30px;
+  --primary-font24: 24px;
+  --primary-font18: 18px;
+  --primary-font14: 14px;
+
+  --primary-line120: 120%;
+  --primary-line130: 130%;
+  --primary-line140: 140%;
+
+  --primaryt-light: 300;
+  --primary-bolder: 500;
+  --primary-normal: 400;
+  --primary-bold: 600;
+  --primary-bolded: 700;
+ }
+/*
+
